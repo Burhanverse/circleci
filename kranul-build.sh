@@ -83,7 +83,7 @@ function getclang() {
       echo "[!] Clang is set to lilium, cloning it..."
       mkdir -p ${MainClangPath}-lilium
       cd clang-lilium
-      wget https://github.com/liliumproject/clang/releases/download/20240623/lilium_clang-20240623.tar.gz
+      wget https://github.com/liliumproject/clang/releases/download/20240813/lilium_clang-20240813.tar.gz
       tar -xf lilium_clang*.tar.gz
       curl -LOk "https://raw.githubusercontent.com/Neutron-Toolchains/antman/main/antman"
       chmod +x antman
